@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faces_of_lifesg_cards",
+  "info": {
+    "name": "Faces of Lifesg Card",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "publish_at": {
+      "type": "datetime"
+    },
+    "banner_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "faces-of-lifesg-card.image",
+        "faces-of-lifesg-card.text-content"
+      ]
+    }
+  }
+}

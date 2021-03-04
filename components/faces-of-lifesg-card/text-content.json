@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_faces_of_lifesg_card_text_contents",
+  "info": {
+    "name": "Text Content",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content_block": {
+      "type": "richtext"
+    }
+  }
+}

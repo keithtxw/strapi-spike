@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faces-of-lifesg-cards",
+      "handler": "faces-of-lifesg-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faces-of-lifesg-cards/count",
+      "handler": "faces-of-lifesg-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faces-of-lifesg-cards/:id",
+      "handler": "faces-of-lifesg-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faces-of-lifesg-cards",
+      "handler": "faces-of-lifesg-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faces-of-lifesg-cards/:id",
+      "handler": "faces-of-lifesg-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faces-of-lifesg-cards/:id",
+      "handler": "faces-of-lifesg-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
