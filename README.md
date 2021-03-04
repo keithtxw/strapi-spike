@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi Spike
 
-A quick description of your strapi application
+A spike on Strapi
